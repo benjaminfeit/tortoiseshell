@@ -13,7 +13,8 @@ html, body{
 }
 
 .header{
-  margin-top: 1rem;
+  position: relative;
+  top: 1rem;
   display: flex;
   background-color: cadetblue;
   color: white;
@@ -41,4 +42,21 @@ html, body{
 
 .header h2{
   font-size: 1rem;
+}
+
+#main-banner-text{
+  background-color: white;
+  top: 10rem;
+  position: relative;
+}
+
+#main-banner-text h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
